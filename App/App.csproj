@@ -48,6 +48,7 @@
     <Compile Include="Data\CompanyRepository.cs" />
     <Compile Include="BusinessLogic\CreditCheck.cs" />
     <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\CustomerAddCommand.cs" />
     <Compile Include="Service\CustomerCreditService.cs" />
     <Compile Include="Data\CustomerDataAccess.cs" />
     <Compile Include="BusinessLogic\CustomerService.cs" />
