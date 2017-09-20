@@ -43,13 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classification.cs" />
-    <Compile Include="Company.cs" />
-    <Compile Include="CompanyRepository.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="CustomerCreditService.cs" />
-    <Compile Include="CustomerDataAccess.cs" />
-    <Compile Include="CustomerService.cs" />
+    <Compile Include="Model\Classification.cs" />
+    <Compile Include="Model\Company.cs" />
+    <Compile Include="Data\CompanyRepository.cs" />
+    <Compile Include="BusinessLogic\CreditCheck.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Service\CustomerCreditService.cs" />
+    <Compile Include="Data\CustomerDataAccess.cs" />
+    <Compile Include="BusinessLogic\CustomerService.cs" />
+    <Compile Include="Data\DataAccessWrapper.cs" />
+    <Compile Include="Interfaces\ICreditCheck.cs" />
+    <Compile Include="Interfaces\ICustomerService.cs" />
+    <Compile Include="Interfaces\IDataAccessWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
